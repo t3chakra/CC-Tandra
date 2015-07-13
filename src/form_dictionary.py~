@@ -1,0 +1,20 @@
+def fib(file):
+	wordcount={}
+	maxlen=0
+	lenstr=0
+	result=[]
+	for word in file.read().split():
+		if word not in wordcount:
+			wordcount[word]=1
+			lenstr=len(word)
+			if (maxlen<lenstr):
+				maxlen=lenstr
+		else:
+			wordcount[word] =wordcount[word]+ 1
+			lenstr=len(word)
+			if (maxlen<lenstr):
+				maxlen=lenstr
+	print maxlen	
+	result.append(wordcount)
+	result.append(maxlen)
+	return result
