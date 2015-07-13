@@ -5,9 +5,9 @@ Inside is given a shell script run.sh file to run the program
 In order to run the program :
 open Terminal
 type the command:
-cd cc-Tandra
-chmpd +x run.sh
-./run.sh
+cd cc-Tandra \
+chmod +x run.sh \
+./run.sh \
 
 The output will be saved in tweet_output folder
 The Source files can be found in src folder.
