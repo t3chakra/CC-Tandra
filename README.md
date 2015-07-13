@@ -6,8 +6,6 @@ In order to run the program :
 open Terminal
 type the command:
 
-cd cc-Tandra 
-
 chmod +x run.sh 
 
 ./run.sh 
